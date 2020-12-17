@@ -1,12 +1,12 @@
 ---
 permalink: linux-spheres-of-support-for-dedicated-and-managed-ops/
-audit_date: '2017-03-07'
+audit_date: '2020-12-17'
 title: Linux Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2017-03-03'
 created_by: Alex Juarez
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-12-17'
+last_modified_by: Man Chung
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
@@ -15,19 +15,20 @@ This article outlines our support of software and server configurations for mach
 
 ### Operating systems
 
-The following operating systems are supported for both Dedicated and Managed Operations:
-
-- CentOS&reg; 7
-- CentOS 6
-- Red Hat&reg; Enterprise Linux&reg; 7
-- Red Hat Enterprise Linux 6
-- Ubuntu&reg; 18.04 LTS (Bionic Beaver)
-- Ubuntu 16.04 LTS (Xenial Xerus)
-
-The following operating systems are supported only for Managed Operations:
-
-- Debian&reg; 9 (Stretch)
-- Debian 8 (Jessie)
+|   | Dedicated | Managed Operations | FAWS | Azure |
+| --- | --- | --- | --- | --- |
+| CentOS&reg; 7 | Yes | Yes | Yes | Yes |
+| Red Hat&reg; Enterprise Linux&reg; 8 | Yes | Yes | Yes | Yes |
+| Red Hat Enterprise Linux 7 | Yes | Yes | Yes | Yes |
+| Oracle&reg; Linux 8 | Yes | No | - | - |
+| Oracle Linux 7 | Yes | No | - | - |
+| Ubuntu&reg; 20.04 LTS (Focal Fossa) | No | Yes | - | - |
+| Ubuntu 18.04 LTS (Bionic Beaver) | Yes | Yes | - | - |
+| Ubuntu 16.04 LTS (Xenial Xerus) | Yes | Yes | - | - |
+| Debian&reg; 10 (Buster) | No | Yes | - | - |
+| Debian 9 (Stretch) | No | Yes | - | - |
+| Amazon&reg; Linux 2 | No | No | Yes | No |
+| Amazon Linux 1 | No | No | Yes | No |
 
 **Note**: Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end support sooner than originally anticipated. For full details on support life, see the [Rackspace EOL Terms](https://www.rackspace.com/information/legal/eolterms).
 
@@ -50,6 +51,7 @@ The following types of database servers are supported in the indicated areas:
 | --- | --- | --- | --- | --- |
 | MySQL and MariaDB | Yes | Yes | Yes | Yes |
 | Percona | Yes | Yes | Yes | Yes |
+| MariaDB | Yes | Yes | Yes | Yes |
 
 **Note**: Linux OS administrators handle basic database support topics. Advanced topics might require DBA support assistance. PostgreSQL, MongoDB, and Oracle are not supported by Linux OS administrators. The Rackspace DBA team supports Oracle and MySQL. PostgreSQL requests can be considered on a case-by-case basis. The Rackspace DBA team is available for support consultation on database issues; fees might apply. For more information visit our [DBA Services page](https://www.rackspace.com/en-us/dba-services).
 
@@ -94,8 +96,8 @@ The following caching tools are supported in the indicated areas:
 |   | Installation | Configuration | Troubleshooting | Patching |
 | --- | --- | --- | --- | --- |
 | Memcached | Yes | Yes | Yes | Yes |
-| Redis | Yes | Yes | Yes | Yes |
 | Varnish | Yes | Yes | Yes | Yes |
+| Redis | Yes | Yes | Yes | Yes |
 
 **Note**: Rackspace does not support VCL customization for Varnish.
 
