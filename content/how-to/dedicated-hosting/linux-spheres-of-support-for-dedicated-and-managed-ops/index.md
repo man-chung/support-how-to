@@ -15,20 +15,20 @@ This article outlines our support of software and server configurations for mach
 
 ### Operating systems
 
-|   | Dedicated | Managed Operations | FAWS | Azure |
+|   | Dedicated | Managed Operations | Fanatical AWS | Microsoft Azure |
 | --- | --- | --- | --- | --- |
-| CentOS&reg; 7 | Yes | Yes | Yes | Yes |
+| CentOS&reg; 8 | - | Yes | Yes | Yes |
+| CentOS 7 | Yes | Yes | Yes | Yes |
 | Red Hat&reg; Enterprise Linux&reg; 8 | Yes | Yes | Yes | Yes |
 | Red Hat Enterprise Linux 7 | Yes | Yes | Yes | Yes |
-| Oracle&reg; Linux 8 | Yes | No | - | - |
-| Oracle Linux 7 | Yes | No | - | - |
-| Ubuntu&reg; 20.04 LTS (Focal Fossa) | No | Yes | - | - |
-| Ubuntu 18.04 LTS (Bionic Beaver) | Yes | Yes | - | - |
-| Ubuntu 16.04 LTS (Xenial Xerus) | Yes | Yes | - | - |
-| Debian&reg; 10 (Buster) | No | Yes | - | - |
-| Debian 9 (Stretch) | No | Yes | - | - |
-| Amazon&reg; Linux 2 | No | No | Yes | No |
-| Amazon Linux 1 | No | No | Yes | No |
+| Oracle&reg; Linux 8 | Yes | - | - | - |
+| Oracle Linux 7 | Yes | - | - | - |
+| Ubuntu&reg; 20.04 LTS (Focal Fossa) | - | Yes | - | - |
+| Ubuntu 18.04 LTS (Bionic Beaver) | Yes | Yes | Yes | Yes |
+| Ubuntu 16.04 LTS (Xenial Xerus) | Yes | Yes | Yes | Yes |
+| Debian&reg; 10 (Buster) | - | Yes | - | - |
+| Debian 9 (Stretch) | - | Yes | - | - |
+| Amazon&reg; Linux 2 | - | - | Yes | - |
 
 **Note**: Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end support sooner than originally anticipated. For full details on support life, see the [Rackspace EOL Terms](https://www.rackspace.com/information/legal/eolterms).
 
